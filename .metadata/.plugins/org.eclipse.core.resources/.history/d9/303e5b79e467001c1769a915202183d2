@@ -1,0 +1,35 @@
+package EjerciciosBasicos;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Ejercicio10EliminarNumerosNegativos {
+
+	public static void main(String[] args) {
+	    int[] array = {1,5,10,-2};
+	    System.out.println(Arrays.toString(removeNegativeNumbers(array)));
+	}
+
+	//public static int[] removeNegativeNumbers(int[] numero) {
+	//    int[] salida = new int[numero.length];
+	//    int j = 0;
+	 //   for(int i = 0; i < numero.length; i++) {
+	 //      if(numero[i] >= 0) {
+	  //  	   salida[j++] = numero[i];
+	 //      }
+	//    }
+	//    return Arrays.copyOfRange(salida, 0, j);
+	//}
+	
+	public static int removeNegativeNumbers(int[] num) {
+	    int k = 0;
+	    for(int i = 0; i < num.length; i++) {
+	       if(num[i] >= 0) {
+	           num[k++] = num[i];
+	       }
+	    }
+	    // Now input array is holding the output data
+	    // Return the length of output array
+	    return k;
+	}
+}

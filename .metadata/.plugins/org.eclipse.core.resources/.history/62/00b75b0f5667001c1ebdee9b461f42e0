@@ -1,0 +1,9 @@
+package EjerciciosBasicos;
+
+public class Ejercicio7ArrayImpares {
+
+	public static void main(String[] args) {
+		//7 - Arrreglo con numeros impares
+	}
+
+}

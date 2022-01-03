@@ -1,0 +1,33 @@
+package Rompecabezas;
+
+import java.util.ArrayList;
+
+public class PuzzleJava {
+
+	public static void main(String[] args) {
+	  //1
+		Actividad1 ejercicio1 = new Actividad1();
+		ejercicio1.actividad0();
+		
+		
+		
+	  //2
+	  
+	  //3
+	  
+	  //4
+	  
+	  //5
+	  
+	  //6
+
+	}
+
+	
+	}
+	
+	
+	
+	
+
+}

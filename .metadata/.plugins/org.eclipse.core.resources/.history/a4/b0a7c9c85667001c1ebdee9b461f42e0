@@ -1,0 +1,18 @@
+package EjerciciosBasicos;
+
+public class Ejercicio2Impares {
+
+	public static void main(String[] args) {
+		//2 - Imprimir los Números Impares Entre 1 - 255
+		
+		int[] impares = new int [255];
+		for(int i=0;i<=254;i++) {
+			impares[i] = (int)(Math.random()*255+0);
+			
+			 if((i%2)!=0) {
+				 System.out.println("Numero impar: " + impares[i]);
+			 }
+		}
+	}
+
+}

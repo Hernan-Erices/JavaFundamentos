@@ -1,0 +1,27 @@
+package Rompecabezas;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Random;
+
+public class Actividad2 {
+	
+	public static void actividad0() {
+		
+		ArrayList<String> valores = new ArrayList<String>();
+		valores.add("Nancy");
+		valores.add("Jinichi");
+		valores.add("Fujibayashi");
+		valores.add("Momochi");
+		valores.add("Ishikawa");
+		
+		//RANDOM
+		Random r = new Random();
+        System.out.println(r.nextInt()); // Sin límites
+        System.out.println(r.nextInt(5)); // Con límites entre 0 y 5
+		
+		
+		
+	}
+
+}

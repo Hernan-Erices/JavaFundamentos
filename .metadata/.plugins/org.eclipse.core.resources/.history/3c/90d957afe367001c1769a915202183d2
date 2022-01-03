@@ -1,0 +1,10 @@
+package EjerciciosBasicos;
+
+public class Ejercicio10EliminarNumerosNegativos {
+
+	public static void main(String[] args) {
+		//Ejercicio 10 - Eliminar Números Negativos
+
+	}
+
+}

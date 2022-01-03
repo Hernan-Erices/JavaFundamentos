@@ -1,0 +1,11 @@
+package Rompecabezas;
+
+public class Actividad7 {
+	
+	public static void actividad6() {
+		
+		int[] generar = new int [10];
+		
+	}
+
+}

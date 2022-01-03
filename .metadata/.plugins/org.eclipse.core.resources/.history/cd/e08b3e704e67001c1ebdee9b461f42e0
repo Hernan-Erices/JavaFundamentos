@@ -1,0 +1,37 @@
+package Rompecabezas;
+
+import java.util.Arrays;
+
+public class Actividad5 extends PuzzleJava {
+	
+	public static void actividad4() {
+		
+		//GENERAR ARRAY ENTRE 55 Y 100
+		int[] generador = new int [10];
+		
+		for(int i=0;i<=9;i++) {
+			generador[1] = (int)(Math.random()*45+55);
+			System.out.println(generador[1]);
+			
+			//Ordenar
+			
+			int menor;
+			
+		    for(int i1 = 0; i1 < 10; i1++){
+		        menor = generador[0];
+
+		        if (generador[i1] < menor){
+		            menor = generador[i1];
+		        }
+		        else{
+		            if (generador[i1] > menor){
+		              menor = menor;
+		            }      
+		        }
+		    }
+		    System.out.println(Arrays.toString(generador));
+		}
+		
+	}
+
+}
